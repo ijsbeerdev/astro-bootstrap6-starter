@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "plugins": ["prettier-plugin-astro"],
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.astro", "*.html"],
+      "options": {
+        "printWidth": 1000,
+        "astroCompressHTML": "html"
+      }
+    }
+  ]
+}

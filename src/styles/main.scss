@@ -1,0 +1,11 @@
+// Bootstrap 6
+// Customize tokens with `@use "bootstrap/scss/bootstrap" with ($root-tokens: (...))`
+// https://getbootstrap.com/docs/6.0/customize/sass/
+@use "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons (icon font)
+// https://icons.getbootstrap.com/
+@use "bootstrap-icons/font/bootstrap-icons" with (
+  // Resolved by Vite from node_modules, so the font files get bundled and hashed
+  $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts"
+);

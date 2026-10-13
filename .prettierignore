@@ -1,0 +1,10 @@
+# Stylelint (stylelint-config-twbs-bootstrap) formats stylesheets
+*.css
+*.scss
+
+package-lock.json
+public/
+
+# Agent skills managed by `npx skills` (twbs/bootstrap)
+.claude/skills/
+skills-lock.json
